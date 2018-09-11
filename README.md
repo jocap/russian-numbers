@@ -6,10 +6,10 @@ The Prolog file `num.pl` provides a way to get from
 > шестьсот восемнадцать
 
 – that is, it describes the relationship between a number and its
-Russian name. At the moment, it doesn't seem to work as reliably
-in the other direction – for example, an input of `["две"
-"тысячи"]`, solving for the numeral representation, seems to
-result in non-termination.
+Russian name.
+
+**Note:** At the moment, there is a bug in the code, which makes
+the program handle the number two thousand (две тысячи) incorrectly.
 
 ### Usage
 
